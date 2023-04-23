@@ -3,7 +3,7 @@
 
 # # Imports
 
-# In[1]:
+# In[41]:
 
 
 get_ipython().run_line_magic('matplotlib', 'inline')
@@ -28,10 +28,19 @@ import timeit
 import itertools
 from datetime import datetime
 
+import os
+
+
+# # Data source and paper
+
+# 1.	Talha Iqbal, Andrew Simpkin, Nicola Glynn, John Killilea, Jane Walsh, Gerard Molloy, Adnan Elahi, Sandra Ganly, Eileen Coen, William Wijns, and Atif Shahzad. “Stress Levels Monitoring Using Sensor-Derived Signals from Non-Invasive Wearable Device: A Pilot Study and Stress-Predict Dataset.”, Nature Scientific Data [Under Review]
+# 
+# 2.	Talha Iqbal, Adnan Elahi, Sandra Ganly, William Wijns, and Atif Shahzad. "Photoplethysmography-Based Respiratory Rate Estimation Algorithm for Health Monitoring Applications." Journal of medical and biological engineering 42, no. 2 (2022): 242-252.
+# 
 
 # # Constants
 
-# In[2]:
+# In[44]:
 
 
 RANDOM_STATE = 41
@@ -43,7 +52,7 @@ RSCV_VERBOSITY = 1
 
 n_participants = 35
 
-directory = 'Stress-Predict-Dataset-main/Raw_data'
+directory = os.path.join('Stress-Predict-Dataset-main', 'Raw_data')
 
 # For reference
 participant_dictionary = {
@@ -847,7 +856,7 @@ classifier_dictionary = {
 # 
 # Participant 1 has been excluded as the timestamps do not correspond to experment durations
 
-# In[23]:
+# In[45]:
 
 
 model_data = create_participant_dict()
