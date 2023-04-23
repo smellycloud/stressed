@@ -8,7 +8,7 @@ Data source and accompanying papers:
 # Instructions:
 
 1. [Install](https://xgboost.readthedocs.io/en/stable/install.html) XGBoost
-2. Execute notebook sequentially
+2. Execute notebook **analysis.ipynb** or **analysis.py** sequentially
 
 # Todo:
 1. Separate helper functions into separate modules
