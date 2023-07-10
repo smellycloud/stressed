@@ -1,5 +1,5 @@
 # stressed
-An investigation into predictive stress monitoring using data from non-invasive sensors
+An investigation into predictive stress monitoring using wearable sensors
 
 Data source and accompanying papers:
 1.	Talha Iqbal, Andrew Simpkin, Nicola Glynn, John Killilea, Jane Walsh, Gerard Molloy, Adnan Elahi, Sandra Ganly, Eileen Coen, William Wijns, and Atif Shahzad. “Stress Levels Monitoring Using Sensor-Derived Signals from Non-Invasive Wearable Device: A Pilot Study and Stress-Predict Dataset.”, Nature Scientific Data [Under Review]
